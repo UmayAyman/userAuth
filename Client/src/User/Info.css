@@ -1,0 +1,107 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.auth-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    font-size: 14px;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+form button {
+    width: 373px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button:hover {
+    background-color: #121212;
+}
+
+.signin {
+    height: 38px;
+}
+
+.switch-form {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+}
+
+.user-details {
+    margin-top: 150px;
+}
+
+.user-details button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
